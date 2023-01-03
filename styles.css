@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url(https://matriculas.estacio.br/blog/wp-content/uploads/2019/08/ciencia-da-computacao-o-que-se-aprende-faculdade-estacio.jpg);
+    background-size: cover;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  div {
+    background-color: rgba(0, 0, 50, 0.7);
+    border-radius: 10px;
+    display: block;
+    width: 600px;
+    height: 100rem;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  h1, p {
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input,
+  textarea {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    min-height: 2em;
+    padding: 5;
+  }
+  
+  select {
+    margin: 5px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    padding: 5;
+    font-size: 11px;
+  }
+  
+  .inline {
+    width: unset;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .textarea {
+    border-radius: 5px;
+    margin: 20px 0 0 0;
+  }
+  
+  #submit {
+    background-color: rgb(0, 100, 50);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  input[type="checkbox"]{
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="radio"]{
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="radio"]:last-of-type {
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"]:last-of-type {
+    margin-bottom: 5px;
+  }
